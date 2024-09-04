@@ -1,0 +1,879 @@
+/* Challenge 1 */
+/* .spoiler {
+    background-color: black;
+    transition: background-color 0.5s ease;
+}
+
+.spoiler:hover {
+    background-color: white;
+} */
+
+/* Challenge 2 */
+/* .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.button-border {
+
+}
+
+.button {
+    display: inline;
+    padding: 25px 44px;
+    align-content: center;
+    font-size: 25px;
+    background-color: black;
+    color: rgb(219, 214, 214);
+    border-width: 4px;
+    border-image-source: linear-gradient(115deg, yellow, purple);
+    border-image-slice: 5;
+}
+
+.button:hover {
+    color: white;
+    padding: 28px 47px;
+    border-image-source: linear-gradient(65deg, purple, yellow);
+} */
+
+/* Challenge 3 */
+/* .container {
+    width: 90%;
+    padding: 2em;
+    margin: auto;
+}
+
+.search-bar {
+    width: 30%;
+    line-height: 2rem;
+    border-radius: 4px;
+    border: 2px solid black;
+    transition: all 0.5s ease;
+    outline: none;
+}
+
+.search-bar:focus {
+    width: 100%;
+    border: 2px solid blue;
+}
+
+.search-bar:focus::placeholder {
+    color: transparent;
+} */
+
+/* Challenge 5 */
+/* :root {
+    --color-light: lightgray;
+    --color-dark: darkgray;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+@keyframes fade-out {
+    from {
+        background-color: var(--color-dark);
+    }
+
+    to {
+        background-color: var(--color-light);
+        height: 70px;
+        width: 70px;
+    }
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.circle {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 10px;
+    background-color: var(--color-dark);
+    animation: fade-out 1.5s infinite alternate;
+}
+ */
+
+ /* Challenge 6 */
+/* .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.square {
+    width: 60px;
+    height: 60px;
+    margin: 1.5rem;
+    transform: rotate(45deg);
+    animation: rotate 1.5s infinite ease-in-out;
+}
+
+.square1 {
+    background-color: red;
+}
+
+.square2 {
+    background-color: blue;
+}
+
+.square3 {
+    background-color: yellow;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(45deg);
+    }
+
+    to {
+        transform: rotate(135deg);
+    }
+} */
+
+/* Challenge 7 */
+/* :root {
+    --black: #282828;
+    --blue: #2892f9;
+    --red: #fb2f27;
+    --yellow: #fdfe29;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.rings {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.ring {
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ring-1 {
+    width: 160px;
+    height: 160px;
+    background-color: var(--black);
+}
+
+.ring-2 {
+    width: 120px;
+    height: 120px;
+    background-color: var(--blue);
+}
+
+.ring-3 {
+    width: 80px;
+    height: 80px;
+    background-color: var(--red);
+}
+
+.bullseye {
+    width: 40px;
+    height: 40px;
+    background-color: var(--yellow);
+} */
+
+/* Challenge 8 */
+/* :root {
+    --bg-word: #5134ff;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1:after {
+    content: "";
+    animation: 6s swap infinite;
+    background: var(--bg-word);
+    padding: 10px;
+    color: white;
+    border-radius: 4px;
+    margin-left: 4px;
+}
+
+@keyframes swap {
+    0% {
+        content: "singing";
+    }
+
+    25% {
+        content: "cats";
+    }
+
+    50% {
+        content: "coding";
+    }
+
+    75% {
+        content: "Scrimba";
+    }
+
+    100% {
+        content: "singing";
+    }
+} */
+
+/* html,
+body {
+    margin: 0;
+    padding: 0;
+    background: black;
+}
+
+:root {
+    --red: #ED2938;
+    --white: #FFF;
+    --blue: #002495;
+    --flag-height: 150px;
+}
+
+.flag-france {
+    height: var(--flag-height);
+    width: calc(var(--flag-height) * 3/2);
+    margin: 2em auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.red {
+    background: var(--red);
+}
+
+.blue {
+    background: var(--blue);
+}
+
+.white {
+    background: var(--white);
+} */
+
+/* Challenge 10 */
+/* html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --black: #000000;
+    --red: #DE0002;
+    --yellow: #FFCE00;
+    --flag-height: 150px;
+}
+
+.flag-germany {
+    height: var(--flag-height);
+    width: calc(var(--flag-height) * 5/3);
+    background: black;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.stripe {
+    flex-grow: 1;
+}
+
+.black {
+    background: var(--black);
+}
+
+.red {
+    background: var(--red);
+}
+
+.yellow {
+    background: var(--yellow);
+} */
+
+/* Challenge 11 */
+/* html,
+body {
+    margin: 0;
+    padding: 0;
+    background: black;
+}
+
+:root {
+    --white: #FFFFFF;
+    --red: #FC3E32;
+    --green: #007E39;
+    --flag-height: 300px;
+}
+
+.flag-madagascar {
+    height: var(--flag-height);
+    width: calc(var(--flag-height) * 1.5);
+    margin: 2em auto;
+    display: flex;
+}
+
+.white {
+    background: var(--white);
+    width: calc(var(--flag-height) / 2);
+}
+
+.red {
+    background: var(--red);
+    height: calc(var(--flag-height) / 2);
+    width: var(--flag-height);
+}
+
+.green {
+    background: var(--green);
+    height: calc(var(--flag-height) / 2);
+} */
+
+/* Challenge 12 */
+/* html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --white: #fff;
+    --red: #FF0002;
+    --flag-hw: 200px;
+}
+
+.flag-swiss {
+    height: var(--flag-hw);
+    width: var(--flag-hw);
+    background: var(--red);
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.cross {
+    height: calc(var(--flag-hw) * 3/16);
+    width: calc(var(--flag-hw) * 5/8);
+    background: var(--white);
+}
+
+.cross2 {
+    transform: rotate(90deg);
+    position: absolute;
+} */
+
+/* html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --blue: #0269A6;
+    --yellow: #FECC00;
+    --flag-height: 150px;
+    --flag-width: calc(var(--flag-height) * 8/5);
+}
+
+.flag-sweden {
+    height: var(--flag-height);
+    width: var(--flag-width);
+    background: var(--blue);
+    display: flex;
+    margin: 2em auto;
+    position: relative;
+}
+
+.stripe {
+    background: var(--yellow);
+    height: calc(var(--flag-height) * 1/5);
+}
+
+.stripe-yellow {
+    align-self: center;
+    width: 100%;
+}
+
+.stripe-yellow2 {
+    width: var(--flag-height);
+    position: absolute;
+    transform: rotate(90deg);
+    top: calc(var(--flag-height) * 4/10);
+    right: calc(var(--flag-width) * 5/16);
+} */
+
+/* Challenge 15 */
+/* html,
+body {
+    margin: 0;
+    padding: 0;
+    background: black;
+}
+
+:root {
+    --orange: #E15307;
+    --white: #FFFFFF;
+    --green: #10AF2A;
+    --flag-height: 200px;
+}
+
+.flag-niger {
+    background: blue;
+    height: var(--flag-height);
+    width: calc(var(--flag-height) * 7/6);
+    margin: 1em auto;
+    display: grid;
+}
+
+.orange {
+    background: var(--orange);
+}
+
+.white {
+    background: var(--white);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.green {
+    background: var(--green);
+}
+
+.circle {
+    background: var(--orange);
+    height: calc(var(--flag-height) / 3 * .85);
+    width: calc(var(--flag-height) / 3 * .85);
+    border-radius: 50%;
+    position: absolute;
+} */
+
+/* Challenge 16 */
+/* html,
+body {
+    margin: 0;
+    padding: 0;
+    background: #000;
+    color: #c9d1d9;
+    font-family: var(--font-main);
+}
+
+:root {
+    --font-main: 'Noto Sans', sans-serif;
+    --main-bg: #000;
+    --profile-bg: #0d1117;
+    --profile-color: #c9d1d9;
+    --profile-img-border: #2e343b;
+    --username-font-color: #8b949e;
+    --username-font-weight: 400;
+    --btn-bg: #21262d;
+    --btn-color: #c9d1d9;
+    --btn-bg-hover: #30363d;
+    --btn-border: #373b43;
+    --btn-border-hover: #8c949e;
+}
+
+.profile-container {
+    width: 80%;
+    min-width: 250px;
+    max-width: 400px;
+    margin: 1em auto;
+    background: var(--profile-bg);
+}
+
+.profile-content {
+    padding: 1em 2em;
+}
+
+.profile-content img {
+    max-width: 100%;
+    border-radius: 50%;
+    border: 2px solid var(--profile-img-border);
+}
+
+.profile-details {
+    padding: 1em 0;
+}
+
+.profile-details h2,
+.profile-details h3 {
+    margin: 0;
+}
+
+.profile-details h3 {
+    font-size: 1em;
+    color: var(--username-font-color);
+    font-weight: var(--username-font-weight);
+}
+
+.profile-details button {
+    width: 100%;
+    background-color: var(--btn-bg);
+    color: var(--btn-color);
+    border: 1px solid var(--btn-border);
+    border-radius: 6px;
+    padding: .25em 0;
+    font-family: inherit;
+}
+
+.profile-details button:hover {
+    background: var(--btn-bg-hover);
+    border-color: var(--btn-border-hover);
+} */
+/* Challenge 17 */
+/* html,
+body {
+    margin: 0;
+    padding: 0;
+    background: #ced0e2;
+}
+
+:root {
+    --toggle-switch-bg: #232428;
+    --toggle-border: #232428;
+    --toggle-bg: #fff;
+    --circle-size: 60px;
+    --toggle-width: 250px;
+}
+
+.toggle-wrap {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.toggle-input {
+    display: none;
+}
+
+label {
+    width: var(--toggle-width);
+    height: var(--circle-size);
+    border: 3px solid var(--toggle-border);
+    border-radius: 40px;
+    padding: .25em;
+    background: var(--toggle-bg);
+}
+
+.toggle-switch {
+    height: var(--circle-size);
+    width: var(--circle-size);
+    background: var(--toggle-switch-bg);
+    border-radius: 50%;
+    transition: all .5s;
+}
+
+.toggle-input:checked~.toggle-switch {
+    transform: translateX(calc(var(--toggle-width) - var(--circle-size)));
+} */
+
+/* Challenge 18 */
+/* html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --card-height: 200px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+.card {
+    border: 1px solid #000;
+    height: var(--card-height);
+    width: calc(var(--card-height) * 2/3);
+    border-radius: 5px;
+    display: grid;
+    padding: .5em;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+}
+
+.bottom {
+    transform: rotate(180deg);
+}
+
+.top>div:first-child,
+.bottom>div:first-child {
+    padding-left: 2px;
+}
+
+.top>div:last-child,
+.bottom>div:last-child {
+    padding-left: 3px;
+} */
+
+/* Challenge 19 */
+/* html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --card-height: 200px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin: 2em;
+}
+
+.card {
+    border: 1px solid black;
+    height: var(--card-height);
+    width: calc(var(--card-height) * 2/3);
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+    color: red;
+    padding: .25em;
+    font-size: 1.25em;
+}
+
+.middle {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    text-align: center;
+    font-size: 2em;
+}
+
+.right {
+    transform: rotate(180deg);
+}
+
+.left>div:first-child,
+.right>div:first-child {
+    padding-left: 2px;
+}
+
+.middle :nth-child(3),
+.middle :nth-child(4) {
+    transform: scaleY(-1);
+} */
+
+/* html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --stage-1: 25%;
+    --stage-2: 50%;
+    --stage-3: 75%;
+    --stage-4: 100%;
+    --progbar-bg: lightgray;
+    --stage-1-bg: red;
+    --stage-2-bg: orangered;
+    --stage-3-bg: greenyellow;
+    --stage-4-bg: green;
+}
+
+.container {
+    width: 80%;
+    margin: 60px auto;
+}
+
+.progress-bar {
+    height: 40px;
+    background: var(--progbar-bg);
+    border-radius: 20px;
+}
+
+.prog-status {
+    height: 40px;
+    border-radius: 20px;
+}
+
+.stage-1 {
+    width: 25%;
+    background: var(--stage-1-bg);
+}
+
+.stage-2 {
+    width: 50%;
+    background: var(--stage-2-bg);
+}
+
+.stage-3 {
+    width: 75%;
+    background: var(--stage-3-bg);
+}
+
+.stage-4 {
+    width: 100%;
+    background: var(--stage-4-bg);
+} */
+
+/* Challenge 21 */
+/* body,
+html {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+:root {
+    --jeopardy-blue: #060CE9;
+    --font-color-main: #fff;
+}
+
+
+.card {
+    height: 200px;
+    width: 350px;
+    background: var(--jeopardy-blue);
+    color: var(--font-color-main);
+    padding: 2em;
+    margin: 2em;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    transition: transform .6s;
+    transform-style: preserve-3d;
+}
+
+.card:hover {
+    transform: rotateY(180deg);
+}
+
+.card-back {
+    display: none;
+}
+
+.card:hover .card-front {
+    display: none;
+}
+
+.card:hover .card-back {
+    display: block;
+    transform: rotateY(180deg);
+}
+
+.card-front,
+.card-back {
+    backface-visibility: hidden;
+} */
+
+/* Challenge 22 */
+/* body,
+html {
+    margin: 0;
+}
+
+:root {
+    --spinner: #f3f3f3;
+    --spinner-active: purple;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loader {
+    width: 100px;
+    height: 100px;
+    border: 1em solid var(--spinner);
+    border-radius: 50%;
+    border-top: 1em solid var(--spinner-active);
+    animation: spin 1.5s linear infinite;
+}
+
+@keyframes spin {
+    100% {
+        transform: rotate(360deg);
+    }
+} */
+
+/* Challenge 24 */
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --progressbar-bg: lightgrey;
+    --start: red;
+    --middle: blue;
+    --finish: green;
+}
+
+.container {
+    width: 80%;
+    margin: 3em auto;
+}
+
+.progress-bar {
+    height: 1.5em;
+    border-radius: 20px;
+    background: var(--progressbar-bg);
+}
+
+.progress-status {
+    width: 10%;
+    background: var(--start);
+    animation: 6s linear showprogress infinite;
+}
+
+@keyframes showprogress {
+    50% {
+        width: 50%;
+        background: var(--middle);
+    }
+
+    75% {
+        width: 100%;
+        background: var(--finish);
+    }
+    
+    100% {
+        width: 100%;
+        background: var(--finish);
+    }
+}
