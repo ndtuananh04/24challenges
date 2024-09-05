@@ -1,19 +1,38 @@
+:root {
+    --color-light: lightgray;
+    --color-dark: darkgray;
+    --black: #282828;
+    --blue: #2892f9;
+    --red: #fb2f27;
+    --yellow: #fdfe29;
+    --bg-word: #5134ff;
+    --red1: #ED2938;
+    --white1: #FFF;
+    --blue1: #002495;
+    --flag-height: 150px;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
 /* Challenge 1 */
-/* .spoiler {
+.spoiler {
     background-color: black;
     transition: background-color 0.5s ease;
 }
 
 .spoiler:hover {
     background-color: white;
-} */
+}
 
 /* Challenge 2 */
-/* .container {
+.container {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
 }
 
 .button-border {
@@ -36,10 +55,10 @@
     color: white;
     padding: 28px 47px;
     border-image-source: linear-gradient(65deg, purple, yellow);
-} */
+}
 
 /* Challenge 3 */
-/* .container {
+.container3 {
     width: 90%;
     padding: 2em;
     margin: auto;
@@ -61,20 +80,9 @@
 
 .search-bar:focus::placeholder {
     color: transparent;
-} */
+}
 
 /* Challenge 5 */
-/* :root {
-    --color-light: lightgray;
-    --color-dark: darkgray;
-}
-
-html,
-body {
-    margin: 0;
-    padding: 0;
-}
-
 @keyframes fade-out {
     from {
         background-color: var(--color-dark);
@@ -86,12 +94,12 @@ body {
         width: 70px;
     }
 }
-.container {
+/* .container {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-}
+} */
 
 .circle {
     width: 60px;
@@ -101,7 +109,7 @@ body {
     background-color: var(--color-dark);
     animation: fade-out 1.5s infinite alternate;
 }
- */
+
 
  /* Challenge 6 */
 /* .container {
@@ -109,7 +117,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-}
+} */
 
 .square {
     width: 60px;
@@ -139,27 +147,14 @@ body {
     to {
         transform: rotate(135deg);
     }
-} */
+}
 
 /* Challenge 7 */
-/* :root {
-    --black: #282828;
-    --blue: #2892f9;
-    --red: #fb2f27;
-    --yellow: #fdfe29;
-}
-
-html,
-body {
-    margin: 0;
-    padding: 0;
-}
 
 .rings {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
 }
 
 .ring {
@@ -191,19 +186,9 @@ body {
     width: 40px;
     height: 40px;
     background-color: var(--yellow);
-} */
+}
 
 /* Challenge 8 */
-/* :root {
-    --bg-word: #5134ff;
-}
-
-.container {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 h1:after {
     content: "";
@@ -235,7 +220,7 @@ h1:after {
     100% {
         content: "singing";
     }
-} */
+}
 
 /* html,
 body {
@@ -243,13 +228,7 @@ body {
     padding: 0;
     background: black;
 }
-
-:root {
-    --red: #ED2938;
-    --white: #FFF;
-    --blue: #002495;
-    --flag-height: 150px;
-}
+ */
 
 .flag-france {
     height: var(--flag-height);
@@ -260,30 +239,30 @@ body {
 }
 
 .red {
-    background: var(--red);
+    background: var(--red1);
 }
 
 .blue {
-    background: var(--blue);
+    background: var(--blue1);
 }
 
 .white {
-    background: var(--white);
-} */
+    background: var(--white1);
+}
 
 /* Challenge 10 */
 /* html,
 body {
     margin: 0;
     padding: 0;
-}
+} */
 
-:root {
+/* :root {
     --black: #000000;
     --red: #DE0002;
     --yellow: #FFCE00;
     --flag-height: 150px;
-}
+} */
 
 .flag-germany {
     height: var(--flag-height);
@@ -309,7 +288,7 @@ body {
 
 .yellow {
     background: var(--yellow);
-} */
+}
 
 /* Challenge 11 */
 /* html,
@@ -317,44 +296,49 @@ body {
     margin: 0;
     padding: 0;
     background: black;
-}
+} */
 
 :root {
-    --white: #FFFFFF;
-    --red: #FC3E32;
     --green: #007E39;
-    --flag-height: 300px;
+    --flag-height11: 300px;
 }
 
+.bgdark {
+    background-color: #404040;
+    width: 45%;
+    padding: 10px;
+    margin: auto;
+}
+        
 .flag-madagascar {
-    height: var(--flag-height);
-    width: calc(var(--flag-height) * 1.5);
+    height: var(--flag-height11);
+    width: calc(var(--flag-height11) * 1.5);
     margin: 2em auto;
     display: flex;
 }
 
-.white {
-    background: var(--white);
-    width: calc(var(--flag-height) / 2);
+.white11 {
+    background: var(--white1);
+    width: calc(var(--flag-height11) / 2);
 }
 
-.red {
+.red11 {
     background: var(--red);
-    height: calc(var(--flag-height) / 2);
-    width: var(--flag-height);
+    height: calc(var(--flag-height11) / 2);
+    width: var(--flag-height11);
 }
 
 .green {
     background: var(--green);
-    height: calc(var(--flag-height) / 2);
-} */
+    height: calc(var(--flag-height11) / 2);
+}
 
 /* Challenge 12 */
 /* html,
 body {
     margin: 0;
     padding: 0;
-}
+} */
 
 :root {
     --white: #fff;
@@ -382,24 +366,46 @@ body {
 .cross2 {
     transform: rotate(90deg);
     position: absolute;
-} */
+}
 
+/* Challenge 13 */
+.flag {
+    margin: 2em auto;
+}
+
+.flag-japan {
+    height: var(--flag-height);
+    width: calc(var(--flag-height) * 3/2);
+    background: var(--white);
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.circlejp {
+    height: calc(var(--flag-height) * 3/5);
+    width: calc(var(--flag-height) * 3/5);
+    background: var(--red);
+    border-radius: 50%;
+}
+
+/* Challenge 14 */
 /* html,
 body {
     margin: 0;
     padding: 0;
-}
+} */
 
 :root {
     --blue: #0269A6;
-    --yellow: #FECC00;
-    --flag-height: 150px;
-    --flag-width: calc(var(--flag-height) * 8/5);
+    --yellow14: #FECC00;
+    --flag-height14: 150px;
+    --flag-width14: calc(var(--flag-height) * 8/5);
 }
 
 .flag-sweden {
-    height: var(--flag-height);
-    width: var(--flag-width);
+    height: var(--flag-height14);
+    width: var(--flag-width14);
     background: var(--blue);
     display: flex;
     margin: 2em auto;
@@ -408,7 +414,7 @@ body {
 
 .stripe {
     background: var(--yellow);
-    height: calc(var(--flag-height) * 1/5);
+    height: calc(var(--flag-height14) * 1/5);
 }
 
 .stripe-yellow {
@@ -417,12 +423,12 @@ body {
 }
 
 .stripe-yellow2 {
-    width: var(--flag-height);
+    width: var(--flag-height14);
     position: absolute;
     transform: rotate(90deg);
-    top: calc(var(--flag-height) * 4/10);
-    right: calc(var(--flag-width) * 5/16);
-} */
+    top: calc(var(--flag-height14) * 4/10);
+    right: calc(var(--flag-width14) * 5/16);
+}
 
 /* Challenge 15 */
 /* html,
@@ -430,28 +436,27 @@ body {
     margin: 0;
     padding: 0;
     background: black;
-}
+} */
 
 :root {
     --orange: #E15307;
-    --white: #FFFFFF;
-    --green: #10AF2A;
-    --flag-height: 200px;
+    --green15: #10AF2A;
+    --flag-height15: 200px;
 }
 
 .flag-niger {
     background: blue;
-    height: var(--flag-height);
-    width: calc(var(--flag-height) * 7/6);
+    height: var(--flag-height15);
+    width: calc(var(--flag-height15) * 7/6);
     margin: 1em auto;
     display: grid;
 }
 
-.orange {
+.orange15 {
     background: var(--orange);
 }
 
-.white {
+.white15 {
     background: var(--white);
     position: relative;
     display: flex;
@@ -459,25 +464,21 @@ body {
     align-items: center;
 }
 
-.green {
-    background: var(--green);
+.green15 {
+    background: var(--green15);
 }
 
-.circle {
+.circle15 {
     background: var(--orange);
-    height: calc(var(--flag-height) / 3 * .85);
-    width: calc(var(--flag-height) / 3 * .85);
+    height: calc(var(--flag-height15) / 3 * .85);
+    width: calc(var(--flag-height15) / 3 * .85);
     border-radius: 50%;
     position: absolute;
-} */
+}
 
 /* Challenge 16 */
-/* html,
+html,
 body {
-    margin: 0;
-    padding: 0;
-    background: #000;
-    color: #c9d1d9;
     font-family: var(--font-main);
 }
 
@@ -497,6 +498,7 @@ body {
 }
 
 .profile-container {
+    color: white;
     width: 80%;
     min-width: 250px;
     max-width: 400px;
@@ -542,26 +544,25 @@ body {
 .profile-details button:hover {
     background: var(--btn-bg-hover);
     border-color: var(--btn-border-hover);
-} */
+}
 /* Challenge 17 */
 /* html,
 body {
     margin: 0;
     padding: 0;
     background: #ced0e2;
-}
+} */
 
 :root {
     --toggle-switch-bg: #232428;
     --toggle-border: #232428;
     --toggle-bg: #fff;
     --circle-size: 60px;
-    --toggle-width: 250px;
+    --toggle-width: 180px;
 }
 
 .toggle-wrap {
     display: flex;
-    height: 100vh;
     justify-content: center;
     align-items: center;
 }
@@ -589,24 +590,24 @@ label {
 
 .toggle-input:checked~.toggle-switch {
     transform: translateX(calc(var(--toggle-width) - var(--circle-size)));
-} */
+}
 
 /* Challenge 18 */
 /* html,
 body {
     margin: 0;
     padding: 0;
-}
+} */
 
 :root {
     --card-height: 200px;
 }
 
-.container {
+/* .container {
     display: flex;
     justify-content: center;
     margin-top: 2em;
-}
+} */
 
 .card {
     border: 1px solid #000;
@@ -636,7 +637,7 @@ body {
 .top>div:last-child,
 .bottom>div:last-child {
     padding-left: 3px;
-} */
+}
 
 /* Challenge 19 */
 /* html,
@@ -647,15 +648,15 @@ body {
 
 :root {
     --card-height: 200px;
-}
+} */
 
-.container {
+/* .container {
     display: flex;
     justify-content: center;
     margin: 2em;
-}
+} */
 
-.card {
+.card19 {
     border: 1px solid black;
     height: var(--card-height);
     width: calc(var(--card-height) * 2/3);
@@ -687,13 +688,13 @@ body {
 .middle :nth-child(3),
 .middle :nth-child(4) {
     transform: scaleY(-1);
-} */
+}
 
 /* html,
 body {
     margin: 0;
     padding: 0;
-}
+} */
 
 :root {
     --stage-1: 25%;
@@ -707,7 +708,7 @@ body {
     --stage-4-bg: green;
 }
 
-.container {
+.container20 {
     width: 80%;
     margin: 60px auto;
 }
@@ -741,7 +742,7 @@ body {
 .stage-4 {
     width: 100%;
     background: var(--stage-4-bg);
-} */
+}
 
 /* Challenge 21 */
 /* body,
@@ -750,7 +751,7 @@ html {
     padding: 0;
     display: flex;
     justify-content: center;
-}
+} */
 
 :root {
     --jeopardy-blue: #060CE9;
@@ -758,7 +759,7 @@ html {
 }
 
 
-.card {
+.card21 {
     height: 200px;
     width: 350px;
     background: var(--jeopardy-blue);
@@ -775,7 +776,7 @@ html {
     transform-style: preserve-3d;
 }
 
-.card:hover {
+.card21:hover {
     transform: rotateY(180deg);
 }
 
@@ -783,11 +784,11 @@ html {
     display: none;
 }
 
-.card:hover .card-front {
+.card21:hover .card-front {
     display: none;
 }
 
-.card:hover .card-back {
+.card21:hover .card-back {
     display: block;
     transform: rotateY(180deg);
 }
@@ -795,25 +796,25 @@ html {
 .card-front,
 .card-back {
     backface-visibility: hidden;
-} */
+}
 
 /* Challenge 22 */
 /* body,
 html {
     margin: 0;
-}
+} */
 
 :root {
     --spinner: #f3f3f3;
     --spinner-active: purple;
 }
-
+/* 
 .container {
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-}
+} */
 
 .loader {
     width: 100px;
@@ -828,14 +829,99 @@ html {
     100% {
         transform: rotate(360deg);
     }
-} */
+}
 
-/* Challenge 24 */
-html,
+/* Challenge 23 */
+/* html,
 body {
     margin: 0;
     padding: 0;
+    background: var(--bg-main);
+    color: var(--font-color);
+    font-family: var(--font);
+} */
+
+:root {
+    --font23: 'Karla', sans-serif;
+    --font-color23: #fff;
+    --grad1: #feda75;
+    --grad2: #fa7e1e;
+    --grad3: #d62976;
+    --grad4: #962fbf;
+    --grad5: #4f5bd5;
+    --viewed: gray;
+    --bg-main: #000;
+    --bg-live: red;
 }
+
+.stories-menu {
+        background: var(--bg-main);
+            color: var(--font-color23);
+            font-family: var(--font23);
+    padding-left: 0;
+    padding-top: 10px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    max-width: 320px;
+    margin: 2em auto;
+}
+
+.story {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+}
+
+.img-wrapper {
+    height: 60px;
+    width: 60px;
+    padding: 4px;
+    background: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+.img {
+    height: 100%;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+.new>.img-wrapper {
+    background: linear-gradient(to top right, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
+}
+
+.viewed>.img-wrapper {
+    background: var(--viewed);
+}
+
+.live:after {
+    content: "LIVE";
+    font-size: .5em;
+    font-weight: bold;
+    background: var(--bg-live);
+    border: 2px solid black;
+    border-radius: 2px;
+    width: 20px;
+    padding: 2px 4px;
+    position: absolute;
+    top: 50%;
+    margin: auto;
+    left: 0;
+    right: 0;
+}
+
+/* Challenge 24 */
+/* html,
+body {
+    margin: 0;
+    padding: 0;
+} */
 
 :root {
     --progressbar-bg: lightgrey;
@@ -844,12 +930,12 @@ body {
     --finish: green;
 }
 
-.container {
+.container24 {
     width: 80%;
     margin: 3em auto;
 }
 
-.progress-bar {
+.progress-bar24 {
     height: 1.5em;
     border-radius: 20px;
     background: var(--progressbar-bg);
